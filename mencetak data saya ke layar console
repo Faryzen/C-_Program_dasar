@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //deklarasi
+            int nilai1, nilai2, nilai3;
+
+            nilai1 = 70;
+            nilai2 = 80;
+            nilai3 = nilai1 + nilai2;
+
+            Console.WriteLine("nama : thoriq");
+            Console.WriteLine("NIM : 19.11.3006");
+            Console.WriteLine("prodi : S1-Informatika amikom jogja");
+            Console.WriteLine("nilai1 anda :" + nilai1);
+            Console.WriteLine("nilai2 anda :" + nilai2);
+            Console.WriteLine("keseluruhan nilai anda :" + nilai3);
+            Console.WriteLine("selamat anda lulus!");
+        }
+    }
+}
