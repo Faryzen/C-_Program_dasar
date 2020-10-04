@@ -17,6 +17,7 @@ namespace ConsoleApplication1
             nilai2 = 80;
             nilai3 = nilai1 + nilai2;
 
+            Console.WriteLine("----PENGUMUMAN----");
             Console.WriteLine("nama : thoriq");
             Console.WriteLine("NIM : 19.11.3006");
             Console.WriteLine("prodi : S1-Informatika amikom jogja");
