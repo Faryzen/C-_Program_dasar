@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //URUTAN PERTAMA <-- ini merupakan komentar
+            //1. Deklarasi 
+            int a, b, c, d; //integer atau bilangan bulat
+
+            //2. Mengeset
+            a = 5;
+            b = 7;
+            c = -4;
+            d = a + b;
+
+            //3. Proses
+            Console.WriteLine(a); // ini akan menampilkan nilai "a" yaitu = 5  
+            Console.WriteLine(b); // ini akan menampilkan nilai "b" yaitu = 7 
+            Console.WriteLine(c); // ini akan menampilkan nilai "c" yaitu = -4
+            Console.WriteLine(d); // ini akan menampilkan nilai "d" yaitu a + b = 12
+        }
+    }
+}
